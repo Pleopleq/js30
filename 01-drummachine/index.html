@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DrumMachine</title>
+</head>
+<body>
+    <main>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>A</kbd>
+                <div class="is-playing" data-key="65"></div>
+            </div>
+            <span class="sound">Kick</span>
+            
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>S</kbd>
+                <div class="is-playing" data-key="83"></div>
+            </div>
+            <span class="sound">Snare</span>
+            
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>D</kbd>
+                <div class="is-playing" data-key="68"></div>
+            </div>
+            <span class="sound">Hi-hat</span>
+            
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>F</kbd>
+                <div class="is-playing" data-key="70"></div>
+            </div>
+            <span class="sound">Open hat</span>
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>G</kbd>
+                <div class="is-playing" data-key="71"></div>
+            </div>
+            <span class="sound">Ride</span>
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>H</kbd>
+                <div class="is-playing" data-key="72"></div>
+            </div>
+            <span class="sound">Tom</span>
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>J</kbd>
+                <div class="is-playing" data-key="74"></div>
+            </div>
+            <span class="sound">Tink</span>
+        </div>
+        <div class="key">
+            <div class="name-key" >
+                <kbd>K</kbd>
+                <div class="is-playing" data-key="75"></div>
+            </div>
+            <span class="sound">Boom</span>
+        </div>
+    </main>
+
+    <audio data-key="65" src="sounds/sounds_kick.wav"></audio>
+    <audio data-key="83" src="sounds/sounds_snare.wav"></audio>
+    <audio data-key="68" src="sounds/sounds_hihat.wav"></audio>
+    <audio data-key="70" src="sounds/sounds_openhat.wav"></audio>
+    <audio data-key="71" src="sounds/sounds_ride.wav"></audio>
+    <audio data-key="72" src="sounds/sounds_tom.wav"></audio>
+    <audio data-key="74" src="sounds/sounds_tink.wav"></audio>
+    <audio data-key="75" src="sounds/sounds_boom.wav"></audio>
+    <script src="app.js"></script>
+</body>
+</html>
